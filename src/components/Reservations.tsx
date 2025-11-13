@@ -24,7 +24,7 @@ const Reservations: React.FC = () => {
   });
 
   // --- IMPORTANT: WhatsApp number used by the user ---
-  const whatsappNumber: string = "2347068787629";
+  const whatsappNumber: string = "2348073345636";
 
   // Handler for all input changes, explicitly typing the event
   const handleChange = (
