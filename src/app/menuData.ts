@@ -17,6 +17,7 @@ export const foodMenu = [
       { name: "Fried Yam", price: 2000 },
     ],
   },
+
   {
     category: "HOT APPETIZER",
     image: "/images/Crispy-Chicken-Wings.jpeg",
@@ -31,6 +32,7 @@ export const foodMenu = [
       { name: "Samosa (3 pieces)", price: 3000 },
     ],
   },
+
   {
     category: "FRIES",
     image: "/images/French-Fries.jpeg",
@@ -42,6 +44,7 @@ export const foodMenu = [
       { name: "Roasted plantain with Fish sauc", price: 8000 },
     ],
   },
+
   {
     category: "MAIN DISH (Rice)",
     image: "/images/Nigerian-fried-rice.jpeg",
@@ -56,6 +59,7 @@ export const foodMenu = [
       { name: "White Rice", price: 2000 },
     ],
   },
+
   {
     category: "NATIONAL DELICACIES",
     image: "/images/Spicy-Peppered-GOATMEAT.jpeg",
@@ -70,6 +74,7 @@ export const foodMenu = [
       { name: "Ofada Rice & Sauce", price: 5500 },
     ],
   },
+
   {
     category: "CYLUX PLATER",
     image: "/images/img-28.jpeg",
@@ -90,6 +95,7 @@ export const foodMenu = [
       { name: "Sichuan Boiled Pork", price: 15000 },
     ],
   },
+
   {
     category: "CYLUX SPECIAL POT",
     image: "/images/Nwobi.jpeg",
@@ -105,6 +111,7 @@ export const foodMenu = [
       { name: "Nkwobi", price: 10000 },
     ],
   },
+
   {
     category: "SOFT/ENERGY DRINKS",
     image: "/images/soft-drink.jpeg",
@@ -121,6 +128,7 @@ export const foodMenu = [
       { name: "Schwepps", price: 1000 },
     ],
   },
+
   {
     category: "SMOOTHIES",
     image: "/images/Strawberry-Smoothie.jpeg",
@@ -141,6 +149,7 @@ export const foodMenu = [
       { name: "Booze Hardshake", price: 5000 },
     ],
   },
+
   {
     category: "BEER DRINKS",
     image: "/images/beer.jpeg",
@@ -167,6 +176,7 @@ export const foodMenu = [
       { name: "Life", price: 2000 },
     ],
   },
+
   {
     category: "SPIRITS & LIQUORS",
     image: "/images/Jack-Daniels.jpeg",
@@ -209,6 +219,7 @@ export const foodMenu = [
       { name: "Ace Bitters", price: 2000 },
     ],
   },
+
   {
     category: "SHOTS LIQUORS",
     image: "/images/shots.jpeg",
@@ -220,6 +231,7 @@ export const foodMenu = [
       { name: "Bacardi Shots", price: 3500 },
     ],
   },
+
   {
     category: "HOT BEVERAGES",
     image: "/images/Coffee.jpeg",
@@ -230,6 +242,7 @@ export const foodMenu = [
       { name: "Coffee", price: 1500 },
     ],
   },
+
   {
     category: "MILKSHAKE",
     image: "/images/Oreos-Milkshake.jpeg",
@@ -239,6 +252,94 @@ export const foodMenu = [
       { name: "Vanilla milkshake", price: 6000 },
       { name: "Oreos Milkshake", price: 6000 },
       { name: "Fantasy Milkshake", price: 6000 },
+    ],
+  },
+
+  /* -------------------------------------------------------------
+   *      NEW CATEGORIES YOU PROVIDED
+   * ------------------------------------------------------------- */
+
+  {
+    category: "NOODLES & PASTA",
+    image: "/images/noodles.jpeg",
+    items: [
+      { name: "Cylux-special noodles", price: 5500 },
+      { name: "Cylux special spaghetti", price: 8500 },
+      { name: "Egg noodles", price: 3500 },
+      { name: "Chicken noodles", price: 5000 },
+      { name: "Beef noodles", price: 5000 },
+      { name: "Pasta Rissotto", price: 8000 },
+      { name: "Chicken spaghetti", price: 8000 },
+      { name: "Singapore pasta", price: 8000 },
+      { name: "Napolitan pasta", price: 8000 },
+    ],
+  },
+
+  {
+    category: "WRAPS",
+    image: "/images/wraps.jpeg",
+    items: [
+      { name: "Shawarma with sausage", price: 5000 },
+      { name: "Shawarma with double sausage", price: 5500 },
+      { name: "Shawarma with cheese", price: 5000 },
+      { name: "Plain shawarma", price: 4000 },
+      { name: "Chicken burger", price: 6000 },
+      { name: "Chicken or beef pizza", price: 20000 },
+      { name: "Pepperonni pizza", price: 22000 },
+      { name: "Sea food pizza", price: 22000 },
+      { name: "Breaded prawn", price: 10000 },
+      { name: "Seafood Provencale", price: 16000 },
+      { name: "Cylux tray", price: 16000 },
+    ],
+  },
+
+  {
+    category: "SOUP",
+    image: "/images/soup.jpeg",
+    items: [
+      { name: "Egusi", price: 2000 },
+      { name: "Ogbonno", price: 2000 },
+      { name: "Eforiro", price: 2000 },
+      { name: "Afang", price: 3000 },
+      { name: "Vegetable", price: 2000 },
+      { name: "Fisherman", price: 18000 },
+      { name: "Seafood okro", price: 18000 },
+      { name: "Vegetable okro", price: 2000 },
+      { name: "Banga (ofe akwu)", price: 5000 },
+      { name: "Nsala Goatmeat", price: 6000 },
+      { name: "Nsala Assorted", price: 5000 },
+      { name: "Ugu soup", price: 2000 },
+      { name: "Bitterleaf soup", price: 2000 },
+      { name: "Oha soup", price: 2000 },
+      { name: "Nsala fresh fish", price: 8000 },
+    ],
+  },
+
+  {
+    category: "SWALLOWS",
+    image: "/images/swallow.jpeg",
+    items: [
+      { name: "Amala", price: 1000 },
+      { name: "Semo", price: 1000 },
+      { name: "Poundo", price: 1000 },
+      { name: "Plantain Flour", price: 2500 },
+      { name: "Wheat", price: 2500 },
+      { name: "Oat Meals", price: 2500 },
+    ],
+  },
+
+  {
+    category: "TIV NATIVE SOUPS",
+    image: "/images/native-soup.jpeg",
+    items: [
+      { name: "Pocho", price: 1500 },
+      { name: "Kyeh sha shwa", price: 4000 },
+      { name: "Atyever", price: 1500 },
+      { name: "Abgende Ashwe", price: 1500 },
+      { name: "Nune Keswn", price: 1500 },
+      { name: "Gyande", price: 1500 },
+      { name: "Fulum", price: 1500 },
+      { name: "Genger", price: 1500 },
     ],
   },
 ];
