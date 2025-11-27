@@ -272,7 +272,17 @@ export const foodMenu = [
       { name: "Booze Hardshake", price: 5000 },
     ],
   },
-
+  {
+    category: "MILKSHAKE",
+    image: "/images/Oreos-Milkshake.jpeg",
+    items: [
+      { name: "Strawberry milkshake", price: 6000 },
+      { name: "Banana milkshake", price: 6000 },
+      { name: "Vanilla milkshake", price: 6000 },
+      { name: "Oreos Milkshake", price: 6000 },
+      { name: "Fantasy Milkshake", price: 6000 },
+    ],
+  },
   {
     category: "COCKTAIL",
     image: "/images/cocktail.jpg", // Placeholder image path
@@ -389,18 +399,6 @@ export const foodMenu = [
       { name: "Arabian Tea Full", price: 4500 },
       { name: "Arabian Double Tea", price: 5000 }, // New item
       { name: "Coffee", price: 1500 },
-    ],
-  },
-
-  {
-    category: "MILKSHAKE",
-    image: "/images/Oreos-Milkshake.jpeg",
-    items: [
-      { name: "Strawberry milkshake", price: 6000 },
-      { name: "Banana milkshake", price: 6000 },
-      { name: "Vanilla milkshake", price: 6000 },
-      { name: "Oreos Milkshake", price: 6000 },
-      { name: "Fantasy Milkshake", price: 6000 },
     ],
   },
 
