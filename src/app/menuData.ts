@@ -113,7 +113,7 @@ export const foodMenu = [
   },
 
   {
-    category: "CYLUX GRILLS",
+    category: "CATFISH",
     image: "/images/catfish.jpg", // Placeholder image path
     items: [
       { name: "Big", price: 20000 },
@@ -205,7 +205,7 @@ export const foodMenu = [
 
   {
     category: "SWALLOWS",
-    image: "/images/swallow.jpg",
+    image: "/images/swallow.jpeg",
     items: [
       { name: "Amala", price: 1000 },
       { name: "Semo", price: 1000 },
@@ -406,7 +406,7 @@ export const foodMenu = [
 
   {
     category: "SHISHA",
-    image: "/images/shisha.jpeg", // Placeholder image path
+    image: "/images/shisha.jpg", // Placeholder image path
     items: [
       { name: "Any flavour", price: 5000 },
       { name: "Extra coal", price: 1000 },
