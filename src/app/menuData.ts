@@ -39,8 +39,8 @@ export const foodMenu = [
     items: [
       { name: "French Fries", price: 3000 },
       { name: "Chicken and Fries", price: 6000 },
-      { name: "Loaded fries: Small", price: 8000 },
-      { name: "Loaded fries: Big", price: 12000 },
+      { name: "Loaded fries: Small", price: 10000 }, // Updated price
+      { name: "Loaded fries: Big", price: 14000 }, // Updated price
       { name: "Roasted plantain with Fish sauc", price: 8000 },
     ],
   },
@@ -113,6 +113,129 @@ export const foodMenu = [
   },
 
   {
+    category: "CYLUX GRILLS",
+    image: "/images/catfish.jpg", // Placeholder image path
+    items: [
+      { name: "Big", price: 20000 },
+      { name: "Medium", price: 17500 },
+      { name: "Small", price: 15500 },
+    ],
+  },
+
+  {
+    category: "TILAPIA FISH",
+    image: "/images/tilapia-fish.jpg", // Placeholder image path
+    items: [
+      { name: "Big", price: 20000 },
+      { name: "Medium", price: 17500 },
+      { name: "Small", price: 15500 },
+    ],
+  },
+
+  {
+    category: "CYLUX SIZZLING",
+    image: "/images/Chicken-Casserole.jpg", // Placeholder image path
+    items: [
+      { name: "Sizzling Fish", price: 9000 },
+      { name: "Sizzzling chicken", price: 9000 },
+      { name: "Sizzling beef", price: 9000 },
+      { name: "Fish or Chicken Casserole", price: 9000 },
+      { name: "Beef Goulash", price: 9000 },
+      { name: "Seafood Ala Cylux", price: 20000 },
+      { name: "Mixed Grill Sauce", price: 15000 },
+      { name: "March potato shredded chicken", price: 15000 },
+    ],
+  },
+
+  {
+    category: "NOODLES & PASTA",
+    image: "/images/Noodles.jpg",
+    items: [
+      { name: "Cylux-special noodles", price: 5500 },
+      { name: "Cylux special spaghetti", price: 8500 },
+      { name: "Egg noodles", price: 3500 },
+      { name: "Chicken noodles", price: 5000 },
+      { name: "Beef noodles", price: 5000 },
+      { name: "Pasta Rissotto", price: 8000 },
+      { name: "Chicken spaghetti", price: 8000 },
+      { name: "Singapore pasta", price: 8000 },
+      { name: "Napolitan pasta", price: 8000 },
+    ],
+  },
+
+  {
+    category: "WRAPS",
+    image: "/images/wraps.jpg",
+    items: [
+      { name: "Shawarma with sausage", price: 5000 },
+      { name: "Shawarma with double sausage", price: 5500 },
+      { name: "Shawarma with cheese", price: 5000 },
+      { name: "Plain shawarma", price: 4000 },
+      { name: "Chicken burger", price: 6000 },
+      { name: "Chicken or beef pizza", price: 20000 },
+      { name: "Pepperonni pizza", price: 22000 },
+      { name: "Sea food pizza", price: 22000 },
+      { name: "Breaded prawn", price: 10000 },
+      { name: "Seafood Provencale", price: 16000 },
+      { name: "Cylux tray", price: 16000 },
+    ],
+  },
+
+  {
+    category: "SOUP",
+    image: "/images/Egusi.jpg",
+    items: [
+      { name: "Egusi", price: 2000 },
+      { name: "Ogbonno", price: 2000 },
+      { name: "Eforiro", price: 2000 },
+      { name: "Afang", price: 3000 },
+      { name: "Vegetable", price: 2000 },
+      { name: "Fisherman", price: 18000 },
+      { name: "Seafood okro", price: 18000 },
+      { name: "Vegetable okro", price: 2000 },
+      { name: "Banga (ofe akwu)", price: 5000 },
+      { name: "Nsala Goatmeat", price: 6000 },
+      { name: "Nsala Assorted", price: 5000 },
+      { name: "Ugu soup", price: 2000 },
+      { name: "Bitterleaf soup", price: 2000 },
+      { name: "Oha soup", price: 2000 },
+      { name: "Nsala fresh fish", price: 8000 },
+    ],
+  },
+
+  {
+    category: "SWALLOWS",
+    image: "/images/swallow.jpg",
+    items: [
+      { name: "Amala", price: 1000 },
+      { name: "Semo", price: 1000 },
+      { name: "Poundo", price: 1000 },
+      { name: "Plantain Flour", price: 2500 },
+      { name: "Wheat", price: 2500 },
+      { name: "Oat Meals", price: 2500 },
+    ],
+  },
+
+  {
+    category: "TIV NATIVE SOUPS",
+    image: "/images/tiv-soup.jpg",
+    items: [
+      { name: "Pocho", price: 1500 },
+      { name: "Kyeh sha shwa", price: 4000 },
+      { name: "Atyever", price: 1500 },
+      { name: "Abgende Ashwe", price: 1500 },
+      { name: "Nune Keswn", price: 1500 },
+      { name: "Gyande", price: 1500 },
+      { name: "Fulum", price: 1500 },
+      { name: "Genger", price: 1500 },
+      { name: "Adenger", price: 1500 },
+      { name: "Aji A Keswn", price: 1500 },
+      { name: "Atuur A chan", price: 1500 },
+      { name: "Atuur a Mtse", price: 1500 },
+    ],
+  },
+
+  {
     category: "SOFT/ENERGY DRINKS",
     image: "/images/soft-drink.jpeg",
     items: [
@@ -147,6 +270,31 @@ export const foodMenu = [
       { name: "Strawberry Seduction", price: 5000 },
       { name: "Fantasy Extract", price: 5000 },
       { name: "Booze Hardshake", price: 5000 },
+    ],
+  },
+
+  {
+    category: "COCKTAIL",
+    image: "/images/cocktail.jpg", // Placeholder image path
+    items: [
+      { name: "Cylux squad", price: 5000 },
+      { name: "Pina colada", price: 4500 },
+      { name: "Sex on the beach", price: 4500 },
+      { name: "Lonf Island", price: 4500 },
+      { name: "Wet pussy", price: 4500 },
+      { name: "Mexican firing Squad", price: 4500 },
+    ],
+  },
+
+  {
+    category: "MOCKTAIL",
+    image: "/images/mocktail.jpg", // Placeholder image path
+    items: [
+      { name: "Cylux", price: 4000 },
+      { name: "Bad Emotion", price: 4000 },
+      { name: "Lick me Clean", price: 4000 },
+      { name: "Brief Pleasure", price: 4000 },
+      { name: "Chapman", price: 4000 },
     ],
   },
 
@@ -202,8 +350,8 @@ export const foodMenu = [
       { name: "Best Cream small", price: 4000 },
       { name: "Best Cream Big", price: 12000 },
       { name: "Black Label X1 (Small)", price: 70000 },
-      { name: "X1 (Small)", price: 35000 },
-      { name: "X1 (Big)", price: 12000 },
+      { name: "X1 (Small)", price: 5000 }, // Updated price
+      { name: "X1 (Big)", price: 20000 }, // Updated price
       { name: "Gordon Gin (Small)", price: 3500 },
       { name: "Absolute Vodka", price: 12000 },
       { name: "Campari", price: 40000 },
@@ -239,6 +387,7 @@ export const foodMenu = [
       { name: "Tea", price: 1500 },
       { name: "Arabian Tea Half", price: 2500 },
       { name: "Arabian Tea Full", price: 4500 },
+      { name: "Arabian Double Tea", price: 5000 }, // New item
       { name: "Coffee", price: 1500 },
     ],
   },
@@ -255,91 +404,12 @@ export const foodMenu = [
     ],
   },
 
-  /* -------------------------------------------------------------
-   *      NEW CATEGORIES YOU PROVIDED
-   * ------------------------------------------------------------- */
-
   {
-    category: "NOODLES & PASTA",
-    image: "/images/noodles.jpeg",
+    category: "SHISHA",
+    image: "/images/shisha.jpeg", // Placeholder image path
     items: [
-      { name: "Cylux-special noodles", price: 5500 },
-      { name: "Cylux special spaghetti", price: 8500 },
-      { name: "Egg noodles", price: 3500 },
-      { name: "Chicken noodles", price: 5000 },
-      { name: "Beef noodles", price: 5000 },
-      { name: "Pasta Rissotto", price: 8000 },
-      { name: "Chicken spaghetti", price: 8000 },
-      { name: "Singapore pasta", price: 8000 },
-      { name: "Napolitan pasta", price: 8000 },
-    ],
-  },
-
-  {
-    category: "WRAPS",
-    image: "/images/wraps.jpeg",
-    items: [
-      { name: "Shawarma with sausage", price: 5000 },
-      { name: "Shawarma with double sausage", price: 5500 },
-      { name: "Shawarma with cheese", price: 5000 },
-      { name: "Plain shawarma", price: 4000 },
-      { name: "Chicken burger", price: 6000 },
-      { name: "Chicken or beef pizza", price: 20000 },
-      { name: "Pepperonni pizza", price: 22000 },
-      { name: "Sea food pizza", price: 22000 },
-      { name: "Breaded prawn", price: 10000 },
-      { name: "Seafood Provencale", price: 16000 },
-      { name: "Cylux tray", price: 16000 },
-    ],
-  },
-
-  {
-    category: "SOUP",
-    image: "/images/soup.jpeg",
-    items: [
-      { name: "Egusi", price: 2000 },
-      { name: "Ogbonno", price: 2000 },
-      { name: "Eforiro", price: 2000 },
-      { name: "Afang", price: 3000 },
-      { name: "Vegetable", price: 2000 },
-      { name: "Fisherman", price: 18000 },
-      { name: "Seafood okro", price: 18000 },
-      { name: "Vegetable okro", price: 2000 },
-      { name: "Banga (ofe akwu)", price: 5000 },
-      { name: "Nsala Goatmeat", price: 6000 },
-      { name: "Nsala Assorted", price: 5000 },
-      { name: "Ugu soup", price: 2000 },
-      { name: "Bitterleaf soup", price: 2000 },
-      { name: "Oha soup", price: 2000 },
-      { name: "Nsala fresh fish", price: 8000 },
-    ],
-  },
-
-  {
-    category: "SWALLOWS",
-    image: "/images/swallow.jpeg",
-    items: [
-      { name: "Amala", price: 1000 },
-      { name: "Semo", price: 1000 },
-      { name: "Poundo", price: 1000 },
-      { name: "Plantain Flour", price: 2500 },
-      { name: "Wheat", price: 2500 },
-      { name: "Oat Meals", price: 2500 },
-    ],
-  },
-
-  {
-    category: "TIV NATIVE SOUPS",
-    image: "/images/native-soup.jpeg",
-    items: [
-      { name: "Pocho", price: 1500 },
-      { name: "Kyeh sha shwa", price: 4000 },
-      { name: "Atyever", price: 1500 },
-      { name: "Abgende Ashwe", price: 1500 },
-      { name: "Nune Keswn", price: 1500 },
-      { name: "Gyande", price: 1500 },
-      { name: "Fulum", price: 1500 },
-      { name: "Genger", price: 1500 },
+      { name: "Any flavour", price: 5000 },
+      { name: "Extra coal", price: 1000 },
     ],
   },
 ];
