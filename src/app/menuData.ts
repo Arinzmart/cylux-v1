@@ -347,13 +347,9 @@ export const foodMenu = [
 
       { name: "Tiger", price: 2000 },
       { name: "Star", price: 2000 },
-
       { name: "Double Black", price: 2000 },
-
       { name: "Trophy Stout", price: 2000 },
-
       { name: "Legend (Twist)", price: 1500 },
-
       { name: "Castle Light", price: 2000 },
     ],
   },
